@@ -134,6 +134,4 @@ const legacyUnescape = (str) => {
   return unescapedStr;
 };
 
-module.exports = {
-  legacyUnescape,
-};
+module.exports = legacyUnescape;
