@@ -14,7 +14,7 @@ Since major browsers are planning to drop the [unescape](https://developer.mozil
 ## Usage
 
 `legacy-unescape` supports:
-* JavaScript escape sequences described in the unescape [MDN page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Using_special_characters_in_strings) such as %XX and %uXXXX (where X represents one hexadecimal digit) with the character that has the hexadecimal value XX/XXXX. If the escape sequence is not a valid escape sequence (for example, if % is followed by one or no hex digit), it is left as-is.
+* JavaScript escape sequences described in the unescape [MDN page](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar) such as %XX and %uXXXX (where X represents one hexadecimal digit) with the character that has the hexadecimal value XX/XXXX. If the escape sequence is not a valid escape sequence (for example, if % is followed by one or no hex digit), it is left as-is.
 
 
 
