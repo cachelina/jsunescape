@@ -93,7 +93,7 @@ var findEncodingIndex = function findEncodingIndex(str) {
   }
   return index;
 };
-var legacyUnescape = function legacyUnescape(str) {
+var jsUnescape = function jsUnescape(str) {
   if (typeof str != "string") {
     return "";
   }
@@ -120,4 +120,4 @@ var legacyUnescape = function legacyUnescape(str) {
   }
   return unescapedStr;
 };
-module.exports = legacyUnescape;
+module.exports = jsUnescape;

@@ -1,5 +1,5 @@
 {
-  "name": "legacy-unescape",
+  "name": "jsunescape",
   "version": "1.0.2",
   "description": "Unescape JavaScript special characters",
   "main": "dist/index.js",
@@ -12,11 +12,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cachelina/legacy-unescape.git"
+    "url": "git+https://github.com/cachelina/jsunescape.git"
   },
   "keywords": [
     "unescape",
-    "legacy unescape",
+    "js unescape",
     "escape sequences",
     "special characters",
     "unicode", 
@@ -27,9 +27,9 @@
   "author": "Catalina Espinoza (http://codedbycat.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cachelina/legacy-unescape/issues"
+    "url": "https://github.com/cachelina/jsunescape/issues"
   },
-  "homepage": "https://github.com/cachelina/legacy-unescape#readme",
+  "homepage": "https://github.com/cachelina/jsunescape#readme",
 
   "devDependencies": {
     "prettier": "2.8.1",
