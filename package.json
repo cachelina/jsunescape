@@ -1,10 +1,43 @@
 {
+  "name": "legacy-unescape",
+  "version": "1.0.0",
+  "description": "Unescape JavaScript special characters",
+  "main": "dist/index.js",
   "scripts": {
+    "build": "babel src -d dist",
     "test": "jest",
-    "format": "prettier --write \"*.js\""
+    "format": "prettier --write \"*.js\"",
+    "coverage": "nyc --reporter=text-lcov npm test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cachelina/legacy-unescape.git"
+  },
+  "keywords": [
+    "unescape",
+    "legacy unescape",
+    "escape sequences",
+    "special characters",
+    "unicode", 
+    "decode hexidecimal", 
+    "unescape browser",
+    "unescape polyfill"
+  ],
+  "author": "Catalina Espinoza (http://codedbycat.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cachelina/legacy-unescape/issues"
+  },
+  "homepage": "https://github.com/cachelina/legacy-unescape#readme",
+
   "devDependencies": {
     "prettier": "2.8.1",
-    "jest": "^29.3.1"
+    "jest": "^29.3.1",
+    "coveralls": "^3.0.2",
+    "@babel/cli": "^7.7.0",
+    "@babel/core": "^7.7.2",
+    "@babel/preset-env": "^7.7.1",
+    "babel-plugin-add-module-exports": "^1.0.2"
   }
 }
