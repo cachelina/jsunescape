@@ -32,8 +32,8 @@ console.log(legacyUnescape('%E4%F6%FC'));
 console.log(legacyUnescape('%E4"'));
 // 'ä'
 
-console.log(legacyUnescape('räksmörgås'));
-//
+console.log(legacyUnescape(encodeURIComponent('räksmörgås')));
+//'rÃ¤ksmÃ¶rgÃ¥s'
 ```
 
 ## License
