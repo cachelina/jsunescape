@@ -104,7 +104,7 @@ const findEncodingIndex = (str) => {
   return index;
 };
 
-const legacyUnescape = (str) => {
+const jsUnescape = (str) => {
   if (typeof str != "string") {
     return "";
   }
@@ -134,4 +134,4 @@ const legacyUnescape = (str) => {
   return unescapedStr;
 };
 
-module.exports = legacyUnescape;
+module.exports = jsUnescape;
