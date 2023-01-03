@@ -1,6 +1,6 @@
 {
   "name": "jsunescape",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Unescape JavaScript special characters",
   "main": "dist/index.js",
   "scripts": {
